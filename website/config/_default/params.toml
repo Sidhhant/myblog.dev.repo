@@ -1,7 +1,9 @@
 logoText = "rubikRevenge" # Logo text that appears in the site navigation bar.
 description = "Sidhhant Bhushan personal blogging website." # for SEO
+logoType = "short"
 custom_css = [] # custom_css = ["scss/custom.scss"] and then make file at root/assets/scss/custom.scss
 custom_js = [] # custom_js = ["js/custom.js"] and then make file at root/assets/js/custom.js
+useFaviconGenerator = false
 
 themeOptions = ["dark", "light", "hacker", "solarized"] # select options for site color theme
 notAllowedTypesInHome = ["contact", "talks", "about"] # not allowed page types in home page. type can be set in front matter or default to folder name.
@@ -33,6 +35,7 @@ useGravatar = false
 location = "Tokyo, Japan"
 organization = "Mercari"
 link = "https://github.com/Sidhhant"
+bioImageUrl = "/images/ProfilePic.jpg"
 
 # sidebar
 enableBio = true # home page sidebar
@@ -142,3 +145,9 @@ commento = false
   copyrightLink = ""
   copyrightLinkImage = ""
   copyrightLinkText = ""
+
+[[share]]
+  name = "facebook"
+[[share]]
+  name = "twitter"
+  username = ""

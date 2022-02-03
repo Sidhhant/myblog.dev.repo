@@ -1,27 +1,11 @@
 [[main]]
-  identifier = "blogs"
-  name = "blogs"
-  url = "blogs"
-  weight = 1
-
-[[main]]
   identifier = "mindmaps"
   name = "mindmaps"
   url = "mindmaps"
+  weight = 1
+
+[[main]]
+  identifier = "about"
+  name = "about"
+  url = "about"
   weight = 2
-
-[[main]]
-  identifier = "gallery"
-  name = "gallery"
-  url = "gallery"
-  weight = 3
-    
-[[main]]
-  parent = "gallery"
-  name = "cartoon"
-  url = "gallery/cartoon"
-
-[[main]]
-  parent = "gallery"
-  name = "photo"
-  url = "gallery/photo"
